@@ -22,24 +22,24 @@ interface CatalogItem {
 }
 
 const FULL_CATALOG: CatalogItem[] = [
-  { id: 'aprons', name: "Aprons & Napkins", desc: "Materials: 100% Cotton Twill 3x1, PC. Sizes and designs as per requirement.", img: "/website_pictures/apron_napkins.png", cat: "KITCHEN" },
-  { id: 'bamboo', name: "Bamboo & Aloe Vera", desc: "Materials: 100% Polyester. Natural fiber treatments for cooling skin contact.", img: "/website_pictures/bamboo_aloe_vera.png", cat: "NATURAL" },
-  { id: 'bathrobe', name: "Bathrobe & Bathmat", desc: "Materials: 100% Cotton, PC. High GSM terry fabrics for luxury hotels.", img: "/website_pictures/bathrobe_bathmat.png", cat: "BATH" },
-  { id: 'bedsets', name: "Bedsets", desc: "Articles: Dyed, Printed, Cuff Piping. Materials: 100% Cotton, PC, MicroFiber.", img: "/website_pictures/bedsets.png", cat: "BEDDING" },
-  { id: 'cushions', name: "Cushion Covers", desc: "Articles: Elastic, Zipper, Frill. Materials: 100% Cotton, PC, MicroFiber.", img: "/website_pictures/cushion_covers.png", cat: "DECOR" },
-  { id: 'duvet', name: "Duvet Cover", desc: "Materials: 100% Polyester, PC, 100% Cotton. Standard industrial grade quality.", img: "/website_pictures/duvet_cover.png", cat: "BEDDING" },
-  { id: 'fitted-sheet', name: "Fitted Sheet", desc: "Articles: Dyed, Printed, Terry, Laminated, Stripe. Materials: 100% Cotton, PC, MicroFiber.", img: "/website_pictures/fitted_sheets.png", cat: "BEDDING" },
-  { id: 'flat-sheets', name: "Flat Sheets", desc: "Articles: Dyed, Printed. Materials: 100% Cotton, PC, MicroFiber.", img: "/website_pictures/flat_sheets.png", cat: "BEDDING" },
-  { id: 'fleece', name: "Fleece", desc: "Articles: Polar, Coral, Sherpa, Pile. Materials: 100% Polyester.", img: "/website_pictures/fleece.png", cat: "WINTER" },
-  { id: 'iron-stand', name: "Iron Stand Covers", desc: "Materials: 100% Cotton or PC laminated with 100% polyester felt.", img: "/website_pictures/iron_stand_covers.png", cat: "HOME" },
-  { id: 'laminated', name: "Laminated Products", desc: "Articles: Mattress Protector. Materials: 100% Polyester/Cotton Terry, Flannel.", img: "/website_pictures/laminated_products.png", cat: "PROTECTION" },
-  { id: 'fabric-rolls', name: "Printed Fabric Rolls", desc: "Materials: 100% Cotton, PC, Microfiber, Twill 100% polyester Dyed.", img: "/website_pictures/printed_fabric_rolls.png", cat: "RAW MATERIAL" },
-  { id: 'bedspread', name: "Quiltted Bedspread", desc: "Articles: Bed Cover. Materials: 100% Polyester, 100% Cotton, PC.", img: "/website_pictures/quiltted_bedspread.png", cat: "LIVING" },
-  { id: 'stripe-pillow', name: "Stripe Pillow & Fitted", desc: "Materials: 100% Cotton, PC, Microfiber Embossed. Satin stripe design.", img: "/website_pictures/stripe_pillow_fitted.png", cat: "HOTEL" },
-  { id: 'table-covers', name: "Table Covers", desc: "Articles: Frill, Laminated, Pom Pom Lace, Waterproof Matt, Loneta. Materials: 100% Cotton, PC, MicroFiber.", img: "/website_pictures/tablecovers.png", cat: "DINING" },
-  { id: 'terry-beach', name: "Terry & Beach Towels", desc: "Materials: 100% Cotton, PC. Large colorful high-absorption towels.", img: "/website_pictures/terry_beach_towels.png", cat: "BATH" },
-  { id: 'terry-fitted', name: "Terry Fitted Sheet", desc: "Articles: Jacquard, Plain. Materials: 100% Polyester, PC.", img: "/website_pictures/terry_fitted_sheet.png", cat: "BEDDING" },
-  { id: 'ultrasonic', name: "Ultrasonic Quilted Pillow Covers", desc: "Articles: With Zip, Without Zip. Materials: 100% Polyester.", img: "/website_pictures/ultrasonic_quilted_pillow_covers.png", cat: "TECH" }
+  { id: 'aprons', name: "Aprons & Napkins", desc: "Materials: 100% Cotton Twill 3x1, PC. Sizes and designs as per requirement.", img: "/apron_napkins.png", cat: "KITCHEN" },
+  { id: 'bamboo', name: "Bamboo & Aloe Vera", desc: "Materials: 100% Polyester. Natural fiber treatments for cooling skin contact.", img: "/bamboo_aloe_vera.png", cat: "NATURAL" },
+  { id: 'bathrobe', name: "Bathrobe & Bathmat", desc: "Materials: 100% Cotton, PC. High GSM terry fabrics for luxury hotels.", img: "/bathrobe_bathmat.png", cat: "BATH" },
+  { id: 'bedsets', name: "Bedsets", desc: "Articles: Dyed, Printed, Cuff Piping. Materials: 100% Cotton, PC, MicroFiber.", img: "/bedsets.png", cat: "BEDDING" },
+  { id: 'cushions', name: "Cushion Covers", desc: "Articles: Elastic, Zipper, Frill. Materials: 100% Cotton, PC, MicroFiber.", img: "/cushion_covers.png", cat: "DECOR" },
+  { id: 'duvet', name: "Duvet Cover", desc: "Materials: 100% Polyester, PC, 100% Cotton. Standard industrial grade quality.", img: "/duvet_cover.png", cat: "BEDDING" },
+  { id: 'fitted-sheet', name: "Fitted Sheet", desc: "Articles: Dyed, Printed, Terry, Laminated, Stripe. Materials: 100% Cotton, PC, MicroFiber.", img: "/fitted_sheets.png", cat: "BEDDING" },
+  { id: 'flat-sheets', name: "Flat Sheets", desc: "Articles: Dyed, Printed. Materials: 100% Cotton, PC, MicroFiber.", img: "/flat_sheets.png", cat: "BEDDING" },
+  { id: 'fleece', name: "Fleece", desc: "Articles: Polar, Coral, Sherpa, Pile. Materials: 100% Polyester.", img: "/fleece.png", cat: "WINTER" },
+  { id: 'iron-stand', name: "Iron Stand Covers", desc: "Materials: 100% Cotton or PC laminated with 100% polyester felt.", img: "/iron_stand_covers.png", cat: "HOME" },
+  { id: 'laminated', name: "Laminated Products", desc: "Articles: Mattress Protector. Materials: 100% Polyester/Cotton Terry, Flannel.", img: "/laminated_products.png", cat: "PROTECTION" },
+  { id: 'fabric-rolls', name: "Printed Fabric Rolls", desc: "Materials: 100% Cotton, PC, Microfiber, Twill 100% polyester Dyed.", img: "/printed_fabric_rolls.png", cat: "RAW MATERIAL" },
+  { id: 'bedspread', name: "Quiltted Bedspread", desc: "Articles: Bed Cover. Materials: 100% Polyester, 100% Cotton, PC.", img: "/quiltted_bedspread.png", cat: "LIVING" },
+  { id: 'stripe-pillow', name: "Stripe Pillow & Fitted", desc: "Materials: 100% Cotton, PC, Microfiber Embossed. Satin stripe design.", img: "/stripe_pillow_fitted.png", cat: "HOTEL" },
+  { id: 'table-covers', name: "Table Covers", desc: "Articles: Frill, Laminated, Pom Pom Lace, Waterproof Matt, Loneta. Materials: 100% Cotton, PC, MicroFiber.", img: "/tablecovers.png", cat: "DINING" },
+  { id: 'terry-beach', name: "Terry & Beach Towels", desc: "Materials: 100% Cotton, PC. Large colorful high-absorption towels.", img: "/terry_beach_towels.png", cat: "BATH" },
+  { id: 'terry-fitted', name: "Terry Fitted Sheet", desc: "Articles: Jacquard, Plain. Materials: 100% Polyester, PC.", img: "/terry_fitted_sheet.png", cat: "BEDDING" },
+  { id: 'ultrasonic', name: "Ultrasonic Quilted Pillow Covers", desc: "Articles: With Zip, Without Zip. Materials: 100% Polyester.", img: "/ultrasonic_quilted_pillow_covers.png", cat: "TECH" }
 ];
 
 // --- COMPONENTS ---
@@ -107,7 +107,7 @@ const GlobalMap = () => {
           </div>
           <div className="relative aspect-[16/10] w-full mt-4 bg-black/20 rounded-lg overflow-hidden border border-white/5">
             <OptimizedImage 
-              src="/website_pictures/world_map.png" 
+              src="/World Map png.png" 
               alt="World Map" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -169,7 +169,7 @@ const Navbar = ({ setPage, currentPage, scrollToForm }: NavbarProps) => {
         <button onClick={() => handleNav('home')} className="flex items-center gap-3 leading-none uppercase italic focus:outline-none group">
           <div className="w-9 h-9 flex items-center justify-center overflow-hidden">
             <img 
-              src="/website_pictures/logo.png" 
+              src="/logo.png" 
               alt="Manza Logo" 
               className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300" 
               referrerPolicy="no-referrer"
@@ -460,7 +460,7 @@ const CertificationCarousel = () => {
               >
                 <div className="h-20 md:h-28 w-40 md:w-56 flex items-center justify-center p-6 bg-slate-50 rounded-2xl border border-slate-100 shadow-sm hover:shadow-2xl hover:bg-white transition-all duration-500">
                   <OptimizedImage 
-                    src={`/website_pictures/${cert.name}.png`} 
+                    src={`/${cert.name}.png`} 
                     className="h-full w-auto object-contain" 
                     alt={cert.label} 
                     referrerPolicy="no-referrer"
@@ -585,7 +585,7 @@ export default function App() {
                   <div className="relative group mt-12 lg:mt-0">
                     <div className="w-full h-[350px] md:h-[500px] overflow-hidden rounded shadow-2xl border border-slate-100 bg-slate-100">
                       <OptimizedImage 
-                        src="/website_pictures/factory_floor.png" 
+                        src="/image_38c327.png" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-in-out" 
                         alt="Factory Floor" 
                         referrerPolicy="no-referrer"
@@ -644,7 +644,7 @@ export default function App() {
                <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center">
                   <div className="relative group overflow-hidden rounded-2xl shadow-2xl">
                     <OptimizedImage 
-                      src="/website_pictures/cotton.png" 
+                      src="/cotton.png" 
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                       alt="Raw Cotton Quality" 
                       onError={(e) => {
@@ -689,7 +689,7 @@ export default function App() {
                  </div>
                  <div className="w-full relative group overflow-hidden rounded-xl shadow-2xl border border-slate-100 bg-slate-50">
                     <OptimizedImage 
-                      src="/website_pictures/12_steps_supply_chain.png" 
+                      src="/12_steps_supply_chain.png" 
                       className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-[1.01]" 
                       alt="12 Steps Supply Chain" 
                       onError={(e) => {
@@ -842,7 +842,7 @@ export default function App() {
                 </div>
                 <div className="relative w-full h-[450px] overflow-hidden rounded group shadow-2xl border border-slate-100 bg-black">
                    <OptimizedImage 
-                    src="/website_pictures/factory_floor.png" 
+                    src="/image_aad88e.png" 
                     className="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-80 transition-all duration-1000" 
                     alt="Smart Mill" 
                     referrerPolicy="no-referrer"
@@ -910,7 +910,7 @@ export default function App() {
               >
                 <div className="w-10 h-10 flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/website_pictures/logo.png" 
+                    src="/logo.png" 
                     alt="Manza Logo" 
                     className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all" 
                     referrerPolicy="no-referrer"

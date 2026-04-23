@@ -585,7 +585,7 @@ export default function App() {
                   <div className="relative group mt-12 lg:mt-0">
                     <div className="w-full h-[350px] md:h-[500px] overflow-hidden rounded shadow-2xl border border-slate-100 bg-slate-100">
                       <OptimizedImage 
-                        src="/image_38c327.png" 
+                        src="factory_floor.png" 
                         className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-in-out" 
                         alt="Factory Floor" 
                         referrerPolicy="no-referrer"

@@ -842,7 +842,7 @@ export default function App() {
                 </div>
                 <div className="relative w-full h-[450px] overflow-hidden rounded group shadow-2xl border border-slate-100 bg-black">
                    <OptimizedImage 
-                    src="/image_aad88e.png" 
+                    src="factory_floor.png" 
                     className="w-full h-full object-cover grayscale opacity-50 group-hover:opacity-80 transition-all duration-1000" 
                     alt="Smart Mill" 
                     referrerPolicy="no-referrer"

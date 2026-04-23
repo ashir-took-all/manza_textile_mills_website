@@ -107,7 +107,7 @@ const GlobalMap = () => {
           </div>
           <div className="relative aspect-[16/10] w-full mt-4 bg-black/20 rounded-lg overflow-hidden border border-white/5">
             <OptimizedImage 
-              src="/World Map png.png" 
+              src="world_map.png" 
               alt="World Map" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
